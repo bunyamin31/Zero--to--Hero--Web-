@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRAVEL</title>
+    <link rel="stylesheet"  href="assets/css/Main.css"/>
+  </head>
+   <body onscroll="scrollFn()">
+     <main>
+       <nav class="menu" id="menu">;
+       <ul>
+         <li>
+             <a href="#home" id="home-button">home</a>
+         </li>
+          <li>
+            <a href="#Gallery">gallery</a>
+        </li>
+          <li>
+            <a href="#About-us">about us</a>
+          </li>
+    </ul>
+</nav>
+ <section class="section-main" id="home">
+  <div class="hero">
+   <h1>Travel Time</h1>
+   <div class="hero-sub">
+    Seyahat etmek güzeldir istersen bizimle beraber katil ne dersin ? 
+  </div>
+  <a href="#" class="hero-button"> Join</a>
+  </div>
+ </section>
+<section class="section-Gallery" id="Gallery">
+<div>
+  <h2>Gallery</h2>
+  <div class="cards">
+    <div class="card">
+      <img src="assets/image/Gallery/mountain1.jpg" alt="mountain" class="card-img"/>
+      <div class="card-content">
+        <div class="card-title">Mountain</div>
+        <div class="card-desc">Tövbe eden melekler dünyada birçok ruh göçüne maruz kaldılar. Son ruh göçlerinden biri onların ineğe dönüşmelerine yol açtı. Bundan dolayıdır ki inekler Hindistan'da kutsaldır.
+  </div>
+        <a href="#" class="read-more">Read more  </a>
+  </div>
+  </div>
+  <div class="card">
+      <img src="assets/image/Gallery/mountain2.jpg" alt="mountain" class="card-img"/>
+      <div class="card-content">
+        <div class="card-title">Mountain</div>
+        <div class="card-desc">Tövbe eden melekler dünyada birçok ruh göçüne maruz kaldılar. Son ruh göçlerinden biri onların ineğe dönüşmelerine yol açtı. Bundan dolayıdır ki inekler Hindistan'da kutsaldır.
+  </div>
+        <a href="#" class="read-more">Read more </a>
+  </div>
+  </div>
+  <div class="card">
+      <img src="assets/image/Gallery/mountain3.jpg" alt="mountain" class="card-img"/>
+      <div class="card-content">
+        <div class="card-title">Mountain</div>
+        <div class="card-desc">Tövbe eden melekler dünyada birçok ruh göçüne maruz kaldılar. Son ruh göçlerinden biri onların ineğe dönüşmelerine yol açtı. Bundan dolayıdır ki inekler Hindistan'da kutsaldır.
+  </div>
+        <a href="#" class="read-more">Read more </a>
+  </div>
+  </div>
+  <div class="card">
+      <img src="assets/image/Gallery/mountain4.jpg" alt="mountain" class="card-img"/>
+      <div class="card-content">
+        <div class="card-title">Mountain</div>
+        <div class="card-desc">Tövbe eden melekler dünyada birçok ruh göçüne maruz kaldılar. Son ruh göçlerinden biri onların ineğe dönüşmelerine yol açtı. Bundan dolayıdır ki inekler Hindistan'da kutsaldır.
+  </div>
+        <a href="#" class="read-more">Read more </a>
+  </div>
+  </div>
+</div>
+</div>
+</section>
+<section class="section-about" id="About-us">
+  <div class="about-container">
+  <h2>About us </h2>
+  <div class="about-text">Türk Masal Külliyatı
+TÜMAK olarak kısaltılan Türk Masal Külliyatı Projesi (Türkiye Sahası), Atatürk Kültür Merkezi Başkanlığınca yürütülmekte olan Kurum içi kapsamlı bir derleme ve yayım projesidir. Projenin İlk bölümü 2019 yılında başlatılmış ve dört yıl içerisinde tamamlanmıştır. Projenin ikinci bölümüneyse 2023 yılında başlanmış olup üç yıl içerisinde tamamlanması planlanmıştır. Proje logosu “Anka Kuşu” motifinden esinlenilerek çizilmiştir. “Masal Masal Türkiye” deyişiyle çıkılan bu yolda önce Türkiye sahası Türk masalları, devamında ise ülkemiz sınırları dışında kalan Türk masalları araştırılacaktır. Uzun vadede Türk masallarıyla ilgili sesli, görüntülü ve yazılı kaynaklar ile bugüne kadar yapılmış araştırmaların, derlemelerin, lisans ve lisansüstü tezlerin, hatta özel arşivlerdeki metinlerin tek çatı altında toplanması ve bilimsel yöntemlerle incelenerek külliyata dâhil edilmesi planlanmıştır.
+</div>
+</div>
+
+</section>
+  </main>
+  <script>
+    
+    const isim= "ahmet";
+    var soyisim= "yılmaz";
+    var tamisim = isim+ " " + soyisim;
+    var yas= 32;
+    //yas*= 10;
+    var yetiskinmi = yas === 32
+    var buYil = new Date().getFullYear();
+    console.log("merhaba dünya ");
+    console.log(yetiskinmi);
+    console.log( yas++ );
+    console.log(isim, soyisim,);
+    console.log(tamisim, yas);
+    console.log("Doğum yili", buYil - yas);
+  
+    //function scrollFn() {
+      //if (window.pageYOffset > 100) {
+        //document.getElementById("menu").classList.add("menu-scroll");
+      //} else {
+         //  document.getElementById("menu").classList.remove("menu-scroll");
+     //}
+   // }
+     </script>
+ </body>
+</html>

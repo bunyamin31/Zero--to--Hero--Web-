@@ -1,0 +1,185 @@
+
+@font-face {
+    font-family: "Roboto Condensed";
+    src: url("../Fonts/Roboto_Condensed-Bold.ttf");
+    font-weight: 700;
+}
+@font-face {
+    font-family: "Roboto Condensed";
+    src: url("../Fonts/Roboto_Condensed-Medium.ttf");
+    font-weight: 500;
+}
+@font-face {
+    font-family: "Roboto Condensed";
+    src: url("../Fonts/Roboto_Condensed-Light.ttf");
+    font-weight: 300;
+}
+html {
+    scroll-behavior: smooth; 
+}
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+    color: white;
+}
+h2 {
+    margin: 0;
+    padding: 20px 0;
+}
+a {
+    text-decoration: none;
+}
+.menu  {
+    position: fixed;
+    width: 100%;
+}
+.menu-scroll {
+    background-color: rgba(0, 0, 0,0.5);
+}
+.menu-scroll ul {
+    padding: 10px 0 !important;
+}
+.menu ul {
+    padding: 20px 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 100;
+    transition: all  0,3s;
+}
+.menu ul li {
+    list-style: none;
+    margin: 0;
+}
+.menu ul li a {
+    color:white;
+    font-size: 24px;
+    padding-bottom: 4px;
+    border-bottom: 3px solid white;
+}
+.menu ul li a:hover {
+    border-bottom: 3px solid white;
+ 
+    
+}
+main {
+    margin: 0;
+}
+
+
+section {
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-main {
+    background-image: url("../image/MainSection.jpg");
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-main .hero{
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.section-main.hero-sub {
+    max-width: 750px;
+    font-weight: 300;
+    font-size: 24px;
+}
+.section-main .hero-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 2px;
+    
+    width: 200px;
+    height: 60px;
+    background: green;
+    border-radius: 20px;
+    box-sizing: border-box;
+    color: #ffffff;
+    font-size: 24px;
+}
+.section-main .hero-button:hover {
+    background: rgb(2, 135, 2);
+}
+.section-main h1 {
+    margin: 0;
+    font-size: 96px;
+    font-weight: 700;
+}
+.section-Gallery {
+    background-image: url("../image/GallerySection.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+ .cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+     
+ }
+
+ .card {
+      width: 320px;
+      padding: 24px ;
+      background: rgba(88, 88, 88, 0.5);
+      box-sizing: border-box;
+}
+.card-img {
+    width: 300px;      
+    height: auto;      
+    border-radius: 10px;
+}
+.card .card-content {
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+}
+.card .card-title {
+    font-size: 24px;
+}
+.card .read-more { 
+   padding: 10px;
+   font-size: 15px;
+   background: rgba(88, 88, 88, 0.5);
+   color: #ffffff;
+   align-self: flex-end;
+}
+.section-about {
+    background-image: url("../image/aboutSection.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-about >  div {
+    max-width: 720px;
+    margin: auto; 
+}
+.section-about .about-text {
+   font-size: 20px;
+   font-weight: 300;
+}
+
+@media only screen and (max-width:1024px) {
+    h2 {
+       text-align: center;
+    }
+}
